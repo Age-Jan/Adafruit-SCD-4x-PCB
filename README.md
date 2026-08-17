@@ -2,6 +2,7 @@
 
 <a href="http://www.adafruit.com/products/5190"><img src="assets/5190.jpg?raw=true" width="500px"></a><br/>
 <a href="http://www.adafruit.com/products/5187"><img src="assets/5187.jpg?raw=true" width="500px"></a><br/>
+<a href="http://www.adafruit.com/products/6512"><img src="assets/6512.jpg?raw=true" width="500px"></a><br/>
 Click above to purchase one from the Adafruit shop!
 
 PCB files for the Adafruit SCD-4x CO2, Temperature and Humidity Sensor. 
@@ -17,10 +18,11 @@ The SCD-40 is a photoacoustic 'true' CO2 sensor that will tell you the CO2 PPM (
 
 Compared to the illustrious SCD-30, this sensor uses a different measurement technique, which allows it to be much smaller. The overall data quality should be very similar, however. Like the SCD-30, this sensor has data read over I2C, so it works very nicely with just about any microcontroller or microcomputer. There's both Arduino and Python/CircuitPython code so you can get started in a jiffy.
 
-There are two variants of this sensor - the SCD-40 and SCD-41
+There are three variants of this sensor - the SCD-40, SCD-41 and SCD-43
 
-* The SCD-40 is lower cost, and is perfect for indoor/outdoor air quality and CO2 measurements. It has a range of 400~2000 ppm with an accuracy of ±(50 ppm + 5% of reading)
-* The SCD-41 is more expensive, and while it can definitely be used for air quality, it's wide range means its best used for industrial or scientific CO2 measurements where the ppm can get very high. It has a range of 400~5000 ppm with an accuracy of ±(40 ppm + 5% of reading)
+* The SCD-40 is lower cost and is perfect for indoor/outdoor air quality and CO2 measurements. It has a range of 400~2000 ppm with an accuracy of ±(50 ppm + 5% of reading)
+* The SCD-41 is an older scientific sensor version, and while it can definitely be used for air quality, it's wide range means it's best used for industrial or scientific CO2 measurements where the ppm can get very high. It has a range of 400~5000 ppm with an accuracy of ±(40 ppm + 5% of reading)
+* The SCD-43 is the latest version. Like the SCD-41, it can be used for air quality, it's wide range means it's best used for industrial or scientific CO2 measurements where the ppm can get very high. It has a range of 400~5000 ppm with an improved accuracy of ±(30 ppm + 3% of reading)
 
 Nice sensor, right? So we made it easy for you to get right into your next project. The sensor is soldered onto a custom-made PCB in the STEMMA QT form factor, making them easy to interface with. The STEMMA QT connectors on either side are compatible with the SparkFun Qwiic I2C connectors. This allows you to make solderless connections between your development board and the SCD-4x or to chain it with a wide range of other sensors and accessories using a compatible cable.
 
